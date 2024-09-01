@@ -4,61 +4,58 @@
     <title>Document</title>
   </head>
   <body>
-    <h1> Faça parte do nosso grupo!! </h1>
-    <p>Preencha o formulario a seguir pra concluir a sua inscrição: </p>
+    <h1>Faça parte do nosso grupo!!</h1>
+    <p>Preencha o formulario a seguir pra concluir a sua inscrição:</p>
 
-<form method="post">
-<!-- Nome do Usuario -->
- <label for="name"> Nome: </label>
- <input type="text" id="name" name="nome" required>
- <br><br>
+    <form method="post">
+      <!-- Nome do Usuario -->
+      <label for="name"> Nome: </label>
+      <input type="text" id="name" name="nome" required />
+      <br /><br />
 
- <!-- Email -->
-  <label for="email"> Email: </label>
-  <input type="email" id="email" name="emai" required>
-  <br><br>
+      <!-- Email -->
+      <label for="email"> Email: </label>
+      <input type="email" id="email" name="emai" required />
+      <br /><br />
 
-  <!-- Senha -->
-   <label for="passwordd"> Senha: </label>
-   <input type="password" id="passwordd" name="senha" required>
-   <br><br>
+      <!-- Senha -->
+      <label for="passwordd"> Senha: </label>
+      <input type="password" id="passwordd" name="senha" required />
+      <br /><br />
 
-<!-- idade -->
- <label for="ida"> Idade: </label>
- <input type="number" id="ida" name="idade" min="18" max="25" required>
- <br><br>
+      <!-- idade -->
+      <label for="ida"> Idade: </label>
+      <input type="number" id="ida" name="idade" min="18" max="25" required />
+      <br /><br />
 
- <!-- Data de Nascimento -->
-  <label for="data"> Data de Nascimento </label>
-  <input type="date" id="data" name="nascimento" required>
-  <br>
+      <!-- Data de Nascimento -->
+      <label for="data"> Data de Nascimento </label>
+      <input type="date" id="data" name="nascimento" required />
+      <br />
 
-  <!--hobbies-->
-  <h5>Hobbies</h5>
- <label for="quebrar"> Quebrar a casa se n tiver janta pronta </label>
- <input type="checkbox" id="quebrar" name="Quebrar">
- <label for="dar"> Dar tiro de 22 pro altokkkk </label>
- <input type="checkbox" id="dar" name="22">
- <label for="arroz"> Comer arroz cru com Fanta Laraja </label>
- <input type="checkbox" id="arroz" name="comer">
-<br><br>
+      <!--hobbies-->
+      <h5>Hobbies</h5>
+      <label for="quebrar"> Quebrar a casa se n tiver janta pronta </label>
+      <input type="checkbox" id="quebrar" name="Quebrar" />
+      <label for="dar"> Dar tiro de 22 pro altokkkk </label>
+      <input type="checkbox" id="dar" name="22" />
+      <label for="arroz"> Comer arroz cru com Fanta Laraja </label>
+      <input type="checkbox" id="arroz" name="comer" />
+      <br /><br />
 
-<label for="situaçao"> Jogo que voce mais joga: </label>
-<select name="jogos" id="situaçao">
-<option value="" selected disabled> Selecione aqui! </option>
-<option value="rainbow"> Rainbow Six-Siege </option>
-<option value="cs"> Counter Strike </option>
-<option value="mine"> Minecraft </option>
-<option value="valorant"> Valorant </option>
-<option value="phasmo"> Phasmofobia </option>
-<option value="letal"> Lethal Company </option>
+      <!--Seleçao de Opções-->
+      <label for="situaçao"> Jogo que voce mais joga: </label>
+      <select name="jogos" id="situaçao" required>
+        <option value="" selected disabled>Selecione aqui!</option>
+        <option value="rainbow">Rainbow Six-Siege</option>
+        <option value="cs">Counter Strike</option>
+        <option value="mine">Minecraft</option>
+        <option value="valorant">Valorant</option>
+        <option value="phasmo">Phasmofobia</option>
+        <option value="letal">Lethal Company</option>
+      </select>
 
-</select>
-
-<button type="submit"> Enviar </button>
-
-</form>
-
-
+      <button type="submit">Enviar</button>
+    </form>
   </body>
 </html>

@@ -1,10 +1,10 @@
 <?php
 
 
-$dbHost = 'Localhost' ;
-$dbUsername = 'root' ;
-$dbPassword = '' ;
-$dbName = 'form'
+$dbHost = 'Localhost';
+$dbUsername = 'root';
+$dbPassword = '';
+$dbName = 'form';
 
 $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 
@@ -14,6 +14,6 @@ if($conexao->connect-errno)
 }
 else
 {
-    echo "Conexão efetuada com sucesso"
+    echo "Conexão efetuada com sucesso";
 }
 ?>

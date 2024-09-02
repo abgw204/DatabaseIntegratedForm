@@ -1,3 +1,19 @@
+<?php
+
+    if (isset($_POST['submit']))
+    {
+      print_r($_POST['nome']);
+      print_r($_POST['email']);
+     # print_r($_POST['senha']);
+     # print_r($_POST['idade']);
+     # print_r($_POST['nascimento']);
+     # print_r($_POST['Quebrar']);
+     # print_r($_POST['22']);
+     # print_r($_POST['comer']);
+     # print_r($_POST['jogos']);
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -7,7 +23,7 @@
     <h1>Faça parte do nosso grupo!!</h1>
     <p>Preencha o formulario a seguir pra concluir a sua inscrição:</p>
 
-    <form method="post">
+    <form action="formulario.php" method="POST">
       <!-- Nome do Usuario -->
       <label for="name"> Nome: </label>
       <input type="text" id="name" name="nome" required />

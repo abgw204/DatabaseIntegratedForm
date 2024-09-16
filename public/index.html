@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Faça parte do nosso grupo!!</h1>
+    <p>Preencha o formulario a seguir pra concluir a sua inscrição:</p>
+
+    <form action="/submit" method="POST">
+      <!-- Nome do Usuario -->
+      <label for="nome"> Nome: </label>
+      <input type="text" id="name" name="nome" required />
+      <br /><br />
+
+      <!-- Email -->
+      <label for="email"> Email: </label>
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+
+      <!-- Senha -->
+      <label for="senha"> Senha: </label>
+      <input type="password" id="senha" name="senha" required />
+      <br /><br />
+
+      <!-- idade -->
+      <label for="idade"> Idade: </label>
+      <input type="number" id="idade" name="idade" min="18" max="25" required />
+      <br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

@@ -6,12 +6,11 @@ font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  
 }
 
 body {
     text-align: center;
-    background-color: rgb(31, 29, 29);
+    background-color: blue;     
 }
 
 h1 {
@@ -25,6 +24,7 @@ h1 {
 
 p {
     margin-bottom: 25px;
+    font-size: 22px;
 }
 
 .formularo {
@@ -45,7 +45,8 @@ form input {
     width: 200px;
     height: 30px;
     background-color: rgba(56, 56, 56, 0.274);
-    margin: 12px;
+    padding: 3px;
+    margin: 10px;
 }
 
 button {

@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Document</title>
+    <title>Servos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Faça parte do nosso grupo!!</h1>
-    <p>Preencha o formulario a seguir pra concluir a sua inscrição:</p>
+    
+    <div class="formularo">
+      <h1>Lorem ipsum</h1>
+      <p>Preencha o formulario a seguir pra concluir a sua inscrição:</p>
 
-    <form action="/submit" method="POST">
-      <!-- Nome do Usuario -->
-      <label for="nome"> Nome: </label>
-      <input type="text" id="name" name="nome" required />
-      <br /><br />
+      <form action="/submit" method="POST">
+        <!-- Nome do Usuario -->
+        <label for="nome"> Nome </label>
+        <br>
+        <input type="text" id="name" name="nome" required />
+        <br /><br />
 
-      <!-- Email -->
-      <label for="email"> Email: </label>
-      <input type="email" id="email" name="email" required />
-      <br /><br />
+        <!-- Email -->
+        <label for="email"> Email </label>
+        <br>
+        <input type="email" id="email" name="email" required />
+        <br /><br />
 
-      <!-- Senha -->
-      <label for="senha"> Senha: </label>
-      <input type="password" id="senha" name="senha" required />
-      <br /><br />
+        <!-- Senha -->
+        <label for="senha"> Senha </label>
+        <br>
+        <input type="password" id="senha" name="senha" required />
+        <br /><br />
 
-      <!-- idade -->
-      <label for="idade"> Idade: </label>
-      <input type="number" id="idade" name="idade" min="18" max="25" required />
-      <br /><br />
+        <!-- idade -->
+        <label for="idade"> Idade </label>
+        <br>
+        <input
+          type="number"
+          id="idade"
+          name="idade"
+          min="18"
+          max="25"
+          required
+        />
+        <br /><br />
 
-      <button type="submit">Enviar</button>
-    </form>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
   </body>
 </html>

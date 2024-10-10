@@ -13,43 +13,33 @@
   <body>
     
     <div class="formularo">
-      <h1>ENTRE EM CONTATO</h1>
-      <p>Preencha o formulario a seguir<br> para concluir a sua inscrição:</p>
+
+      <h1> Servos <br> entertainment <h1>
+      <p> Venha e faça Login no nosso Site! </p>
 
       <form action="/submit" method="POST">
         <!-- Nome do Usuario -->
-        <label for="nome"> Nome </label>
+        <label for="nome" class="no"> Nome </label>
         <br>
         <input type="text" id="name" name="nome" required />
         <br /><br />
 
         <!-- Email -->
-        <label for="email"> Email </label>
+        <label for="email" class="email"> Email </label>
         <br>
         <input type="email" id="email" name="email" required />
         <br /><br />
 
         <!-- Senha -->
-        <label for="senha"> Senha </label>
+        <label for="senha" class="senha"> Senha </label>
         <br>
         <input type="password" id="senha" name="senha" required />
-        <br /><br />
-
-        <!-- idade -->
-        <label for="idade"> Idade </label>
-        <br>
-        <input
-          type="number"
-          id="idade"
-          name="idade"
-          min="18"
-          max="25"
-          required
-        />
         <br /><br />
 
         <button type="submit">Enviar</button>
       </form>
     </div>
+
+
   </body>
 </html>
